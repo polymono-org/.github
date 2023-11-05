@@ -13,5 +13,6 @@
 - Runs on the worlds first global singleton computer for unrivalled native atomicity
 - Devs do not 'clone' meta repos. They are virtualised instances of a git repo itself
 - Store the state root efficiently, produced from an e-merge.
-- Pioneer the concept of e-merges "emergent merge operations" - conceptually unlike a normal merge involving molecule<->molecule, this is a meta-level action operating at an organism level compared to molecular level the repository resides at.
-- Emerge - an Organism emerges from the molecules (commits in child repos) which is the construction of ONLY molecules which the organisms creator permits (meta-perms) it to be created from 
+- Pioneer the concept of e-merges "emergent merge operations" - conceptually unlike a normal merge involving molecule<->molecule, this is a meta-level action operating at an organism level compared to molecular level the repository resides at
+- Emerge - an Organism emerges from the molecules (commits in child repos) which is the construction of ONLY molecules which the organisms creator permits (meta-perms) it to be created from
+- Meta-Build tooling operates at organism level, rather than molecular providing atomicity without requiring a SINGLE change to the underlying child repos. This makes it zero-cost to adopt as it will not distrupt any existing build processes
