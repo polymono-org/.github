@@ -17,7 +17,7 @@
 - Emerge - an Organism emerges from the molecules (commits in child repos) which is the construction of ONLY molecules which the organisms creator permits (meta-perms) it to be created from
 - Meta-Build tooling operates at organism level, rather than molecular providing atomicity without requiring a SINGLE change to the underlying child repos. This makes it zero-cost to adopt as it will not distrupt any existing build processes
 - Granular permissions controls which allow the metarepo admin to block automated process like CICD if a commit is made by a non-permed comitter
-- 
+- Enable granular attributiom disperments at the commmit level - paving way to autonomous markets of programmers which compete to create verified commits balancing code quality and low cost etc
 
 # Methodology
 
