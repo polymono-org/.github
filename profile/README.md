@@ -25,7 +25,7 @@
 2. Get the commit hash https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 3. Unwrap the commit SHA and verify the commiter is permissioned 
 4. Update the merkle tree with the verified commit hash on the metarepo for permissioned committer
-5. Store the root onchain (Push)
+5. Store the root onchain <- Atomic commit (Push)
 6. Retrive the root and rebuild a working virtual git tree(s) <- Emerge (Pull)
 7. Run automated process like new build deployment from the virtualised tree
 8. Rinse and repeat 
