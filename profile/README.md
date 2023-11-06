@@ -16,8 +16,8 @@
 - Pioneer the concept of e-merges "emergent merge operations" - conceptually unlike a normal merge involving molecule<->molecule, this is a meta-level action operating at an organism level compared to molecular level the repository resides at
 - Emerge - an Organism emerges from the molecules (commits in child repos) which is the construction of ONLY molecules which the organisms creator permits (meta-perms) it to be created from
 - Meta-Build tooling operates at organism level, rather than molecular providing atomicity without requiring a SINGLE change to the underlying child repos. This makes it zero-cost to adopt as it will not distrupt any existing build processes
-- Granular permissions controls which allow the metarepo admin to block automated process like CICD if a commit is made by a non-permed comittee
-
+- Granular permissions controls which allow the metarepo admin to block automated process like CICD if a commit is made by a non-permed comitter
+- 
 
 # Methodology
 
